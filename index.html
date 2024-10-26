@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <h1>Bienvenidos a Nuestra Página</h1>
+    <p>Descubre más sobre nuestros servicios</p>
+    <button onclick="scrollToForm()">¡Únete ahora!</button>
+  </header>
+
+  <!-- Features Section -->
+  <section id="features">
+    <h2>Nuestras Características</h2>
+    <div class="feature">
+      <h3>Calidad</h3>
+      <p>Ofrecemos los mejores productos.</p>
+    </div>
+    <div class="feature">
+      <h3>Rapidez</h3>
+      <p>Entrega rápida y segura.</p>
+    </div>
+    <div class="feature">
+      <h3>Soporte</h3>
+      <p>Atención al cliente 24/7.</p>
+    </div>
+  </section>
+
+  <!-- Subscription Section -->
+  <section id="subscribe">
+    <h2>Suscríbete a Nuestro Boletín</h2>
+    <form id="subscriptionForm" onsubmit="subscribe(event)">
+      <input type="email" id="email" placeholder="Tu correo electrónico" required>
+      <button type="submit">Suscribirse</button>
+    </form>
+    <p id="message"></p>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>&copy; 2023 Nuestra Empresa. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

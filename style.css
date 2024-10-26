@@ -1,0 +1,112 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Header Section */
+  header {
+    text-align: center;
+    padding: 100px 20px;
+    background-color: #3498db;
+    color: white;
+  }
+  
+  header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+  }
+  
+  header p {
+    font-size: 1.2em;
+  }
+  
+  header button {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #3498db;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  header button:hover {
+    background-color: #e0e0e0;
+  }
+  
+  /* Features Section */
+  #features {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .feature h3 {
+    font-size: 1.5em;
+    color: #3498db;
+    margin-bottom: 10px;
+  }
+  
+  /* Subscribe Section */
+  #subscribe {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #3498db;
+    color: white;
+  }
+  
+  #subscribe h2 {
+    font-size: 2em;
+  }
+  
+  #subscriptionForm {
+    margin-top: 20px;
+  }
+  
+  #subscriptionForm input, #subscriptionForm button {
+    padding: 10px;
+    font-size: 1em;
+    margin-right: 5px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  #subscriptionForm input {
+    width: 250px;
+  }
+  
+  #subscriptionForm button {
+    background-color: white;
+    color: #3498db;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #subscriptionForm button:hover {
+    background-color: #e0e0e0;
+  }
+  
+  #message {
+    margin-top: 20px;
+    font-size: 1.2em;
+  }
+  
+  /* Footer Section */
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
